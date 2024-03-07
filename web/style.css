@@ -1,0 +1,126 @@
+body { 
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none; 
+}
+
+#container{ 
+    position: absolute;
+    display: none;
+    width: 89vh;
+    height: 55vh;
+    top : 20vh;
+    left : 48vh;
+    background-color: rgba(36, 32, 32, 0.79);
+    border-radius: 1vh;
+}
+
+#franklin { 
+    position: absolute;
+    height: 50vh;
+    bottom : 0.1vh;
+    left: 1vh;
+}
+
+#close { 
+    position: absolute;
+    width: 2.5vh;
+    height: 2.5vh;
+    right: 1.2vh;
+    top : 1.2vh;
+}
+
+#header { 
+    position: absolute;
+    font-family: "Poppins";
+    font-size : 6.5vh;
+    font-weight: 100;
+    left : 39.5vh;
+    top : 6vh;
+    color: white;
+}
+
+#tekstic { 
+    position: absolute;
+    font-family: "Poppins";
+    font-size : 1.2vh;
+    font-weight: 100;
+    width: 45vh;
+    text-align: justify;
+    left : 40vh;
+    top : 20vh;
+    color: white;
+}
+
+.dugme { 
+    font-family: "Poppins";
+    color: white;
+    position: absolute;
+    width: 25vh;
+    height: 6vh;
+    left : 40vh;
+    bottom: 13vh;
+    background-color: #195c94;
+}
+
+.dugme:hover { 
+    -webkit-box-shadow: -4px -2px 52px 0px #195c94;
+    -moz-box-shadow: -4px -2px 52px 0px #195c94;
+    box-shadow: -4px -2px 52px 0px #195c94;
+}
+
+.buy { 
+    position: absolute;
+    font-family: "Poppins";
+    font-size : 2.7vh;
+    left : 4.8vh;
+    top: 1vh;
+}
+
+
+.upitnik {
+    position: absolute;
+    display : none;
+    width: 30vh;
+    height: 20vh;
+    left : 75vh;
+    top: 33vh;
+    background-color: rgba(36, 32, 32, 0.79);
+}
+
+.upit{ 
+    position: absolute;
+    top: 3vh;
+    font-size: 2vh;
+    font-family: "Poppins";
+    text-align: center;
+    color: rgb(190, 190, 190);
+}
+
+.da { 
+    position: absolute;
+    bottom : 2vh;
+    left: 5vh;
+    font-size : 2vh;
+    font-family: "Poppins";
+    text-align: center;
+    color: rgb(190, 190, 190);
+}
+
+.da:hover { 
+    color: rgb(255, 255, 255);
+}
+
+.ne { 
+    position: absolute;
+    bottom : 2vh;
+    right: 5vh;
+    font-size : 2vh;
+    font-family: "Poppins";
+    text-align: center;
+    color: rgb(190, 190, 190);
+}
+
+.ne:hover { 
+    color: rgb(255, 255, 255);
+}
